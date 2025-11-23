@@ -1,0 +1,45 @@
+.producto {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    height: auto;
+}
+
+.producto>* {
+    margin: 10px;
+}
+
+.producto-quitar
+{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 0px;
+    padding-left: 2px;
+}
+
+.producto-quitar:hover {
+    background-color: black;
+    border: 2px solid white;
+}
+
+.producto-imagen{
+    border-radius: 8px;
+    height: 70px;
+    width: 70px;
+}
+
+.producto-cantidad>section>* {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.producto-etiqueta {
+    font-weight: bold;
+    margin-right: 5px;
+}

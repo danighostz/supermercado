@@ -1,0 +1,23 @@
+.barra-logo
+{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.barra-titulo
+{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.barra-login
+{
+    margin-right: 20px;
+}
+
+.barra-login > a
+{
+    text-decoration: none;
+    color: white !important;
+}

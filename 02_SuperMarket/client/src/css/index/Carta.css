@@ -1,0 +1,34 @@
+.tarjeta
+{
+    width: 240px;
+    height: 320px;
+    text-align: center;
+}
+
+.tarjeta > *
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-imagen
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 120px;
+    height: 120px;
+}
+
+.tarjeta-boton
+{
+    width: 140px;
+}
+
+.tarjeta-vacia
+{
+    width: 200px;
+}

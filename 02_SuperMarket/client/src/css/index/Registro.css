@@ -1,0 +1,82 @@
+.section-registro
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-registro > *
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.registro-fila
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro-fila > *
+{
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registro-entrada
+{
+    width: 220px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.registro-clave
+{
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.registro-imagen
+{
+    width: 25px;
+    height: 25px;
+}
+
+.registro-iniciar
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.registro-registrarse
+{
+    margin: auto;
+}
+
+.registro-registrarse > *
+{
+    margin-right: 30px;
+}
+
+.registro-ojo
+{
+    padding: 4px;
+    padding-right: 7px;
+    margin-left: 0;
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.registro-caja
+{
+    width: 15px;
+    height: 15px;
+}

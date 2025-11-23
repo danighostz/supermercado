@@ -1,0 +1,12 @@
+.section-usuario
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-usuario > *
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/259/259552.png">
+    <title>Configura método de pago</title>
+    <style>
+        select
+        {
+            overflow-y: auto;
+        }
+
+        #agregarMetodo
+        {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Configura tu método de pago</h1>
+    <label for="metodo">Selecciona un método de pago:</label>
+    <section>
+        <select id="metodo" size="3" onchange="seleccionMetodo()">
+            <option value="m1">Método 1</option>
+            <option value="m2">Método 2</option>
+            <option value="m3">Método 3</option>
+        </select>
+    </section>
+    <label for="agregar">¿Deseas añadir otro método de pago?</label>
+    <input id="agregar" type="checkbox" onchange="nuevoMetodo()">
+    <form id="agregarMetodo" action="#">
+        <h1>Agregar nuevo método de pago</h1>
+        <section>
+            <label for="numero">Número de tarjeta:</label>
+            <input id="numero" type="text">
+        </section>
+        <section>
+            <label for="nombre">Nombre completo:</label>
+            <input id="nombre" type="text">
+        </section>
+        <section>
+            <label for="fecha">Fecha de expiración:</label>
+            <input id="fecha" type="text">
+            <label for="clave">Código de seguridad:</label>
+            <input id="clave" type="text">
+        </section>
+        <section>
+            <label for="tipoDoc">Tipo de documento:</label>
+            <select>
+                <option value="" hidden></option>
+                <option value="cc">CC</option>
+                <option value="ce">CE</option>
+                <option value="nit">NIT</option>
+            </select>
+
+            <label for="doc">Número de documento:</label>
+            <input id="doc" type="text">
+        </section>
+        <button type="submit">Agregar a la lista</button>
+    </form>
+    <section>
+        <button id="continuar" disabled>Continuar</button>
+    </section>
+
+    <script>
+        function nuevoMetodo()
+        {
+            const add = document.getElementById("agregar").checked;
+            document.getElementById("agregarMetodo").style.display = add ? "block":"none";
+        }
+
+        function seleccionMetodo()
+        {
+            document.getElementById("continuar").disabled = false;
+        }
+    </script>
+</body>
+</html>

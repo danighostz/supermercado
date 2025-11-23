@@ -1,0 +1,19 @@
+.modal-productos
+{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+}
+
+.modal-vacio
+{
+    text-align: center;
+}
+
+.modal-vacio > *
+{
+    margin: 20px;
+}

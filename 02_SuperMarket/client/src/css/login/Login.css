@@ -1,0 +1,62 @@
+.login-fila
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-fila > *
+{
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-entrada
+{
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.login-clave
+{
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-imagen
+{
+    width: 25px;
+    height: 25px;
+}
+
+.login-iniciar
+{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.login-registrarse
+{
+    margin: auto;
+}
+
+.login-registrarse > *
+{
+    margin-right: 30px;
+}
+
+.login-ojo
+{
+    padding: 4px;
+    padding-right: 7px;
+    margin-left: 0;
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
