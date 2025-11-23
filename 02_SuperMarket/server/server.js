@@ -94,4 +94,4 @@ app.delete("/categorias/:categoria/:producto", async (req, res) => {
     { console.log("Eliminacion cancelada"); }
 });
 
-app.listen(5000, () => console.log("Servidor activo en el puerto 5000."))
+app.listen(5000, "0.0.0.0", () => console.log("Servidor activo en el puerto 5000."))
